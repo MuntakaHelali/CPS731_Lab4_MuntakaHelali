@@ -25,27 +25,29 @@
                 android:id="@+id/imageViewImage"
                 android:layout_weight="0"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ferry"
-                android:visibility="gone">
+                android:src="@drawable/hondajazz"
+                android:visibility="gone"
+                android:contentDescription="@string/todo">
             </ImageView>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:weightSum="1.5">
+                android:weightSum="2"
+                android:baselineAligned="false">
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1.5"
+                    android:layout_weight="2"
                     android:padding="10dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Title"
+                        android:text="@string/title"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:id="@+id/textViewTitle">
@@ -54,18 +56,10 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Description"
+                        android:text="@string/description"
                         android:textSize="14sp"
                         android:id="@+id/textViewDescription">
                     </TextView>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".7"
-                    android:gravity="center"
-                    >
 
                     <TextView
                         android:layout_width="match_parent"
@@ -73,7 +67,6 @@
                         android:visibility="invisible"
                         android:id="@+id/tvInformation">
                     </TextView>
-
                 </LinearLayout>
 
             </LinearLayout>

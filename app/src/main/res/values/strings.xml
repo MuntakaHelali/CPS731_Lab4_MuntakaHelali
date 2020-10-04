@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CarRecyclerApp</string>
+    <string name="information">information</string>
+    <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
 </resources>
