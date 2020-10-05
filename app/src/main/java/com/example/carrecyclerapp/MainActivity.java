@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 "    87 lb-ft @ 5000 RPM\n" +
                 "    118 Nm @ 5000 RPM\n\n" +
                 "Fuel System: Direct Injection\n\n" +
-                "Fuel: Gasoline \n\n");
+                "Fuel: Gasoline");
         carlist.add(cardata);
         cardata = new CarData("HONDA Odyssey","The fifth generation of the big MPV from Honda was introduced on the market in 2018 and, in 2020, it went through a mid-life cycle refresh.",R.drawable.hondaodyssey,"ENGINE SPECS  –  3.5L V6 i-VTEC 10AT (280 HP)\n"+
                 "\nCylinders: V6 \n\n" +
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 "    262 lb-ft @ 4700 RPM\n" +
                 "    355 Nm @ 4700 RPM\n\n" +
                 "Fuel System: Turbocharged Direct Injection\n\n" +
-                "Fuel: Gasoline \n\n");
+                "Fuel: Gasoline");
         carlist.add(cardata);
         cardata = new CarData("HONDA Civic Hatchback","Exterior styling refinements to the 2020 Honda Civic Hatchback lineup include revised styling of the lower bumper fog light housings, which now features a body-color crossbar.",R.drawable.hondacivichatchback,"ENGINE SPECS  –  1.5L 6MT (174 HP)\n"+
                 "\nCylinders: L4 \n\n" +
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 "    162 lb-ft @ 1700-5500 RPM\n" +
                 "    220 Nm @ 1700-5500 RPM\n\n" +
                 "Fuel System: Direct Injection \n\n" +
-                "Fuel: Gasoline \n\n");
+                "Fuel: Gasoline");
         carlist.add(cardata);
         cardata = new CarData("HONDA CR-V","For over 20 years, the Honda CR-V has been the best-selling crossover in the United States, which is why Honda has decided to gift its fifth generation an extensive mid-cycle facelift for the 2020 model year.",R.drawable.hondacrv,"ENGINE SPECS  –  1.5L Turbo CVT (190 HP)\n"+
                 "\nCylinders: L4 \n\n" +
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 "    179 lb-ft @ 2000-5000 RPM\n" +
                 "    243 Nm @ 2000-5000 RPM\n\n" +
                 "Fuel System: Turbocharged Direct Injection \n\n" +
-                "Fuel: Gasoline \n\n");
+                "Fuel: Gasoline");
         carlist.add(cardata);
         cardata = new CarData("HONDA Civic Sedan","Even though it wasn't too much since the tenth generation of the Honda Civic was launched, the Japanese car-maker introduced a facelift for it in 2018.",R.drawable.hondacivicsedan,"ENGINE SPECS  –  1.5L CVT (174 HP)\n"+
                 "\nCylinders: L4 \n\n" +
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 "    120 lb-ft @ 1700-5500 RPM\n" +
                 "    162 Nm @ 1700-5500 RPM\n\n" +
                 "Fuel System: Turbocharge Direct Injection \n\n" +
-                "Fuel: Gasoline \n\n");
+                "Fuel: Gasoline");
         carlist.add(cardata);
         cardata = new CarData("HONDA Civic Type-R","The fifth generation Honda Civic Type-R was introduced in 2017 after being unveiled at the Paris Motor Show in November 2016. The new model uses a design that derives from the standard Civic model.",R.drawable.hondacivicr,"ENGINE SPECS  –  3.5L V6 9AT (573 HP)\n"+
                 "\nCylinders: L4 \n\n" +
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 "    295 lb-ft @ 2500-4500 RPM\n" +
                 "    400 Nm @ 2500-4500 RPM\n\n" +
                 "Fuel System: Turbocharged Direct Injection \n\n" +
-                "Fuel: Gasoline \n\n");
+                "Fuel: Gasoline");
         carlist.add(cardata);
         cardata = new CarData("HONDA NSX","After ten years of absence on the market, a new generation Honda NSX supercar debuted at the 2015 North American International Auto Show, bringing a new experience in its segment.",R.drawable.hondansx,"ENGINE SPECS  –  1.3L CVT (98 HP)\n"+
                 "\nCylinders: V6 \n\n" +
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                 "    406 lb-ft @ 2000-6000 RPM\n" +
                 "    550 Nm @ 2000-6000 RPM\n\n" +
                 "Fuel System: Turbocharged Direct Injection \n\n" +
-                "Fuel: Hybrid \n\n");
+                "Fuel: Hybrid");
         carlist.add(cardata);
 
         Adapter carAdapter = new Adapter(MainActivity.this, carlist);
